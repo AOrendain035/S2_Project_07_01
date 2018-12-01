@@ -48,9 +48,14 @@ article {
         width: 100%;
     }
 
-    nav.horizontal a {
+    nav.horizontal {
         -webkit-order: 99;
         order: 99;
+    }
+
+    body>footer {
+        -webkit-order: 100;
+        order: 100;
     }
 }
 
@@ -58,3 +63,25 @@ article {
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
+@media only screen and (min-width: 481px) {
+    nav.horizontal ul li {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+
+    img.size1 {
+        width: 100%;
+    }
+
+    img.size2 {
+        width: 60%;
+    }
+
+    img.size3 {
+        width: 40%;
+    }
+
+    img.size4 {
+        width: 30%;
+    }
+}
