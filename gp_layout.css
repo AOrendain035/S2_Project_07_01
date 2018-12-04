@@ -16,11 +16,11 @@
 
 */
 
-
+/* In the line of code underneath, I gave imported the designs css page. */
 /* Import Basic Design Styles Used on All Screens */
-
 @import url("gp_designs.css");
 
+/* In the block of code underneath, I have defined the body as a flexbox and made it so that the rows wrap to a new line. I have also set the growth/shrink rate and basis value for the section element with the id of sheet and the article element. This means that the article/section elements have a predetermined size and will grow or shrink by the amount stated. */
 /* Flex Layout Styles */
 body {
     display: -webkit-flex;
@@ -39,6 +39,7 @@ article {
     flex: 1 3 180px;
 }
 
+/* For the mobile styles underneath, I have made is so that images that are distinguished by the panel class have a width of 100% when being viewed on a mobile device. This means that these images will take up the entire width of the mobile screen. I have also given the nav with a class of horizontal and the body footer certain load orders so that the body footer is the absolute last item on the page and the horizontal nav is the second to last.*/
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
    ============================================
@@ -59,6 +60,7 @@ article {
     }
 }
 
+/* In the chunk of code underneath, I have added styles that will only be applied to the webpage if the page is accessed through a tablet and/or desktop. I have made it so that the nav.horizontal list items that are nested within ul elements will have a growth/shrink rate of 1 and that their inital size is automatically set to correspond with the user's screen. I have also given certain images certain sizes so that the page is set up like an actual comic book, some images are bigger than others. */
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================

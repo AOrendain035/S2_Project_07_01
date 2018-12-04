@@ -15,7 +15,7 @@
 */
 
 
-
+/* Underneath, I have made it so that when a user wants to print off the page, the footer, navigation lists, and article elements won't be present. Pretty much the only things that will be present are the website logo, the comic book title, and the actual comic book pages themselves.  */
 /* Hidden Objects */
 nav,
 footer,
@@ -23,6 +23,7 @@ article {
     display: none;
 }
 
+/* In the lines of code underneath, I have made it so that the section with the distinguisher of the sheet id will have a certain with and will be centered within the page itself. I have also given certain images certain sizes so that the page will actually look like comic book pages. Some images are bigger/smaller than others. */
 /* Comic Book Sheet Styles */
 section#sheet {
     width: 6in;
